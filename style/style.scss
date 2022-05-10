@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+}
+h1.text-center {
+  color: rgb(119, 119, 119);
+  transition: all 0.6s;
+
+  &:hover {
+    color: #b8b8b8;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.451);
+  }
+}
+
+.button {
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: #6e6e6e;
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: rgb(64, 64, 64);
+    color: rgb(255, 255, 255);
+  }
+}
+
+.button1 {
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: #fa9304;
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: #a66100;
+    color: rgb(255, 255, 255);
+  }
+}
+.button2 {
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: #e2e2e2;
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: #a2a2a2;
+    color: rgb(255, 255, 255);
+  }
+}
+.row {
+  margin: 8px 0;
+}
+
+.row input {
+  width: 291px;
+  font-size: 20px;
+  margin: 0;
+  color: white;
+  padding: 10px 0px;
+  border: 1px solid rgba(146, 146, 146, 0.294);
+  background-color: black;
+  border-radius: 5px;
+  transition: all 0.4s;
+
+  &:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(41, 41, 41);
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.671);
+    border: 1px solid rgba(146, 146, 146, 0);
+  }
+}
