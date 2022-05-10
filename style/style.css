@@ -92,7 +92,19 @@ h1.text-center:hover {
 .row input:hover {
   color: white;
   background-color: #292929;
-  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.671);
   border: 1px solid rgba(146, 146, 146, 0);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+footer div.copyright {
+  margin-left: 8px;
+}
+
+footer div.copyright p {
+  color: #b5b5b5;
 }
 /*# sourceMappingURL=style.css.map */
