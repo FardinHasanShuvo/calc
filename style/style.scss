@@ -17,13 +17,14 @@ h1.text-center {
 }
 
 .button {
-  width: 66px;
+  width: 80px;
+  height: 80px;
   padding: 20px;
   margin: 0 3px;
   border: 2px solid black;
-  border-radius: 4px;
+  border-radius: 16px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 25px;
   background-color: #6e6e6e;
   transition: all 0.4s;
 
@@ -34,13 +35,14 @@ h1.text-center {
 }
 
 .button1 {
-  width: 66px;
+  width: 80px;
+  height: 80px;
   padding: 20px;
   margin: 0 3px;
   border: 2px solid black;
-  border-radius: 4px;
+  border-radius: 16px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 25px;
   background-color: #fa9304;
   transition: all 0.4s;
 
@@ -50,13 +52,14 @@ h1.text-center {
   }
 }
 .button2 {
-  width: 66px;
+  width: 80px;
+  height: 80px;
   padding: 20px;
   margin: 0 3px;
   border: 2px solid black;
-  border-radius: 4px;
+  border-radius: 16px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 25px;
   background-color: #e2e2e2;
   transition: all 0.4s;
 
@@ -70,29 +73,28 @@ h1.text-center {
 }
 
 .row input {
-  width: 291px;
-  font-size: 20px;
+  width: 40vh;
+  height: 26vh;
+  font-size: 35px;
+  text-align: right;
   margin: 0;
   color: white;
   padding: 10px 0px;
-  border: 1px solid rgba(146, 146, 146, 0.294);
+  border: 1px solid rgba(146, 146, 146, 0);
   background-color: black;
   border-radius: 5px;
   transition: all 0.4s;
-
-  &:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(41, 41, 41);
-    border: 1px solid rgba(146, 146, 146, 0);
-  }
 }
 footer {
   position: absolute;
-  bottom: 0;
+  bottom: 0vh;
 
   div.copyright {
     margin-left: 8px;
     p {
+      font-size: 12px;
+      width: auto;
+      font-weight: 100;
       color: #b5b5b5;
     }
   }
